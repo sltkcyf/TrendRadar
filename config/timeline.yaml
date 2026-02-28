@@ -176,9 +176,9 @@ presets:
     # 时间段定义 ── 只有晚间汇总需要特殊处理
     periods:
       evening_summary:
-        name: "晚间汇总"
-        start: "20:00"
-        end: "22:00"
+        name: "下午汇总"
+        start: "15:00"
+        end: "16:00"
         analyze: true              # 晚间做 AI 分析
         ai_mode: "daily"           # AI 也汇总全天内容
         report_mode: "daily"       # 切换为当日全部新闻汇总

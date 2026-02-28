@@ -77,8 +77,6 @@ platforms:
       name: "少数派"
 
 
-
-
 # ===============================================================
 # 3. 数据源 - RSS 订阅
 #
@@ -123,10 +121,6 @@ rss:
       url: "http://www.ruanyifeng.com/blog/atom.xml"
       # max_age_days: 7               # 示例：推送7天内的文章（更新较慢的博客）
     
-    - id: "qbitai"
-      name: "量子位"
-      url: "https://www.qbitai.com/feed"
-      max_age_days: 3
 
     - id: "openai-blog"
       name: "OpenAI 官方博客"
@@ -147,11 +141,6 @@ rss:
       name: "arXivAI 论文"
       url: "https://rss.arxiv.org/rss/cs.AI"
       max_age_days: 1
-      
-      - id: "hackernews"
-      name: "Hacker News AI"
-      url: "https://hnrss.org/newest?q=AI"
-      max_age_days: 3 
  
     # 自定义源示例
     # - id: "custom-feed"

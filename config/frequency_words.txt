@@ -118,8 +118,8 @@ sensational
 混元大模型
 盘古模型
 星火认知
-GPT-5
-Claude-3
+GPT
+Claude
 Gemini
 +技术
 +发布
@@ -137,6 +137,11 @@ Gemini
 #AI 相关
 /(?<![a-zA-Z])ai(?![a-zA-Z])/ =>AI 相关
 人工智能
+Agent
+openclaw
+clawbot
+coPaw
+Coze
 
 # 编程相关AI资讯
 GitHub Copilot => 编程助手Copilot
